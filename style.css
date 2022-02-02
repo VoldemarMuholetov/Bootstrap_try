@@ -1,0 +1,118 @@
+/*Сброс стилей*/
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Общие стили*/
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+a:focus {
+    outline: none;
+}
+header, section, footer {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-style: inherit;
+    line-height: inherit;
+}
+.container-main {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.container-upper, 
+.container-medium,
+.container-lower  {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+@media screen and (max-width: 576px) {
+    .container-upper, 
+    .container-medium,
+    .container-lower {
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+}
+
+                    /*Оформление сайта*/
+
+/*оформление навбара*/
+/**/
+
+.navbar {
+    padding: 0;
+}
+.navbar >  .container-fluid {
+    background-color: #343A40;
+    min-height: 56px;
+    padding-left: 16px;
+    
+}
+.navbar-brand {
+    font-size: 20px;
+    line-height: 23px;
+    padding: 0;
+    margin-right: 24px;
+}
+.nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 0;
+    margin-right: 16px;
+}
+
+    
+
+/*Оформление профайла*/
+
+.container-upper {
+    background-color: #E9ECEF;
+
+}
+.card {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card {
+    border: none;
+}
+.card-body {
+    padding: 0;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.card-title {
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    line-height: 100%;
+}
+.card-text {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+}
+/*Оформление карточек*/
+
+
+
+/*Оформление таблицы*/
+
+/*Оформление футера*/
