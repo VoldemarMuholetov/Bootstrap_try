@@ -101,6 +101,11 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 84px;
     line-height: 100%;
 }
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 48px;
+    }
+}
 .card-text {
     margin-top: 8px;
     margin-bottom: 16px;
