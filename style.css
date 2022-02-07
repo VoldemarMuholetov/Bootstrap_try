@@ -38,6 +38,14 @@ h1, h2, h3, h4, h5, h6, p {
     padding-left: 55px;
     padding-right: 55px;
 }
+@media screen and (max-width: 768px) {
+    .container-upper, 
+    .container-medium,
+    .container-lower {
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+}
 @media screen and (max-width: 576px) {
     .container-upper, 
     .container-medium,
@@ -46,6 +54,8 @@ h1, h2, h3, h4, h5, h6, p {
         padding-right: 15px;
     }
 }
+
+
 
                     /*Оформление сайта*/
 
@@ -82,19 +92,19 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #E9ECEF;
 
 }
-.card {
+.profile-card {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.card {
+.profile-card {
     border: none;
 }
-.card-body {
+.profile-card-body {
     padding: 0;
     padding-top: 64px;
     padding-bottom: 64px;
 }
-.card-title {
+.profile-card-title {
     margin-bottom: 0;
     font-weight: 300;
     font-size: 72px;
@@ -102,11 +112,11 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 100%;
 }
 @media (max-width: 576px) {
-    .card-title {
+    .profile-card-title {
         font-size: 48px;
     }
 }
-.card-text {
+.profile-card-text {
     margin-top: 8px;
     margin-bottom: 16px;
     font-weight: 400;
@@ -116,6 +126,81 @@ h1, h2, h3, h4, h5, h6, p {
 }
 /*Оформление карточек*/
 
+.container-medium {
+    padding-top: 32px;
+    padding-bottom: 73px;
+    background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .container-medium {
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container-medium {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+.cards-about {
+    display: flex;
+    
+}
+.about-card {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+    
+
+}
+
+.about-card-header {
+    min-height: 48px;
+    padding-top: 14px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-size: 16px;
+    line-height: 19px;
+}
+.about-card-body {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.about-card-title {
+    font-size: 20px;
+    line-height: 23px;
+}
+.about-card-text:first-child {
+    margin-bottom: 0;
+}
+
+.statistics-card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+
+.statistics-card-header {
+    min-height: 48px;
+    padding-top: 14px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-size: 16px;
+    line-height: 19px;
+}
+.statistics-card-body {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+}
+.statistics-card-text {
+}
 
 
 /*Оформление таблицы*/
