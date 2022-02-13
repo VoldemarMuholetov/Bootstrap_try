@@ -141,17 +141,32 @@ h1, h2, h3, h4, h5, h6, p {
     .container-medium {
         padding-left: 16px;
         padding-right: 16px;
+            
     }
+    .about-card {
+        margin-right: 0px !important;
+        width: 100%;
+        
+    }
+    .statistics-card {
+        width: 100%;
+    }
+
 }
 .cards-about {
     display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    
     
 }
 .about-card {
+    display: inline-block;
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 4px;
+
     
 
 }
@@ -180,6 +195,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .statistics-card {
+    display: inline-block;
+    height: max-content;
+    margin-bottom: 30px;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 4px;
 }
@@ -200,9 +218,32 @@ h1, h2, h3, h4, h5, h6, p {
     padding-right: 20px;
 }
 .statistics-card-text {
+    
 }
 
 
 /*Оформление таблицы*/
 
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
+
 /*Оформление футера*/
+
+footer {
+    background-color: #F5F5F5;
+    min-height: 51px;
+}
+
+
+.copyright {
+    
+    padding-top: 16px;
+    padding-right: 90px;
+    color: #6C757D;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
